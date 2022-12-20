@@ -1,0 +1,9 @@
+Connect to Fabric gateway.
+Use network channel: mychannel.
+Use org.biodocnet.biocontract smart contract.
+Submit Reject transaction.
+Process reject transaction response.
+asdqw123qawsed consent : 2022-11-10 successfully Reject valid
+Transaction complete.
+Disconnect from Fabric gateway.
+Buy_request program complete.

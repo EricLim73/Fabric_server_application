@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>유래물 사용 요청</title>
+    </head>
+    <body>
+        <h1>기관이 요청할 기증자의 인체유래물정보를 기록하는 병원 사이트</h1>
+
+        <div id="insertMaterial">
+            <h3>Issue Asset -- Biobank only</h3> 
+            <form action="/requesting" method="get">
+                Requester : <input name="requester" type="text" size="20"><br>
+                UID : <input name="uid" type="text" size="20"><br>
+                Institution : <input name="institution" type="text" size="20"><br>
+                Usage : <input name="usage" type="text" size="20"><br>
+                <input type="submit" value="create asset"> 
+            </form>
+        </div>
+    </body>
+</html> 

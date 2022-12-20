@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>인체유래물 저장</title>
+    </head>
+    <body>
+        <h1>기관이 요청할 기증자의 인체유래물정보를 기록하는 병원 사이트</h1>
+
+        <div id="insertMaterial">
+            <h3>Issue Asset -- Biobank only</h3> 
+            <form action="/materialAdd" method="get">
+                UID : <input name="UID" type="text" size="20"><br>
+                Material : <input name="Material" type="text" size="20"><br>
+                medicalRecord : <input name="medicalRecord" type="text" size="20"><br>
+                <input type="submit" value="create asset"> 
+            </form>
+        </div>
+    </body>
+</html> 
